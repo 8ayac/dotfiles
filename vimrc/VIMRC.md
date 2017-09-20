@@ -1,9 +1,9 @@
 # vimrc
----------------
 
 ## userautoloadの中身
-* 'init'
-* 'plugin-settings'
+* init
+* plugin-settings
+
 
 ### initの中身
 |ファイル名             |内容                   |
