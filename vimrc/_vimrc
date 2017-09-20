@@ -1,0 +1,20 @@
+" autocmd.vim
+" ==================================================================================
+
+
+" 可能であれば、グローバルな構成ファイルを取得する
+if filereadable("/etc/vim/vimrc.local")
+    source /etc/vim/vimrc.local
+endif
+
+" powerline
+set rtp+=$HOME/.local/lib/python2.7/site-packages/powerline/bindings/vim/
+
+
+" .vim/autoload内の設定ファイル読み込み
+runtime! userautoload/init/autocmd.vim
+runtime! userautoload/init/basic.vim
+runtime! userautoload/init/plugins.vim
+runtime! userautoload/plugin-settings/*.vim
+runtime! userautoload/init/colors.vim
+runtime! userautoload/init/key-mappings.vim
