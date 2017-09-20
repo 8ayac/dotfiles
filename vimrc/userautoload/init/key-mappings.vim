@@ -6,6 +6,8 @@
 inoremap <C-j> <esc>
 " Ctrl-j 連打でハイライト解除
 nmap <C-j><C-j> :nohlsearch<CR><Esc>
+" vimrc関連を編集したい時
+nmap evp :NERDTree<CR> :OpenBookmark vimrc<CR>
 
 
 
@@ -13,9 +15,9 @@ nmap <C-j><C-j> :nohlsearch<CR><Esc>
 " プラグインのキーバインド
 " ----------------------------------------------------------------------------------
 " Shougo/vimshell {{{
-" vs:シェルを起動, vp:ウィンドウを分割してシェルを起動
+" vs:シェルを起動, vsp:ウィンドウを分割してシェルを起動
 nmap <silent> vs :<C-u>VimShell<CR>
-nmap <silent> vp :<C-u>VimShellPop<CR>
+nmap <silent> vsp :<C-u>VimShellPop<CR>
 " }}}
 
 " Lokaitog/vim-easymotion {{{
