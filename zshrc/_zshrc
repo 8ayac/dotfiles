@@ -1,0 +1,10 @@
+# _zshrc
+# -------------------------------------------------
+
+HISTFILE=~/.zsh_history
+HISTSIZE=5000000000000000
+SAVEHIST=5000000000000000
+
+for i in $HOME/dotfiles/zshrc/config/*.zsh; do
+  source $i
+done
