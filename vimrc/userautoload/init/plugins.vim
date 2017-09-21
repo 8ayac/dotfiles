@@ -105,6 +105,9 @@ NeoBundle 'mattn/emmet-vim'
 " kana/vim-submode
 NeoBundle 'kana/vim-submode'
 
+" w0rp/ale
+NeoBundle 'w0rp/ale'
+
 " vimrc に記述されたプラグインでインストールされていないものがないかチェックする
 NeoBundleCheck
 call neobundle#end()
