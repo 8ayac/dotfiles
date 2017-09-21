@@ -1,7 +1,7 @@
 # vimrc
 
 ## 概要
-vimの設定ファイル群
+vimの設定ファイル群(VIM version: 8.0)
 
 ## 内容物
 * _vimrc
