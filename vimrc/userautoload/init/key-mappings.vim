@@ -55,9 +55,9 @@ vmap gx <Plug>(openbrowser-smart-search)
 " }}}
 
 " w0rp/ale {{{
-" エラー間を移動: Alt+j, Alt+k
-nmap <silent> <A-k> <Plug>(ale_previous_wrap)
-nmap <silent> <A-j> <Plug>(ale_next_wrap)
+" エラー間を移動: ek, ej
+nmap <silent> ek <Plug>(ale_previous_wrap)
+nmap <silent> ej <Plug>(ale_next_wrap)
 " }}}
 " ----------------------------------------------------------------------------------
 
