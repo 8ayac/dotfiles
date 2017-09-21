@@ -47,11 +47,17 @@ map <C-n> :NERDTreeToggle<CR>
 let g:user_emmet_leader_key='<C-e>'
 " }}}
 
-" tyru/open-browser.vim {{{
+" tyru/open-browserm {{{
 " gxでカーソル下のURLをブラウザで開く
 let g:netrw_nogx = 1 " disable netrw's gx mapping.
 nmap gx <Plug>(openbrowser-smart-search)
 vmap gx <Plug>(openbrowser-smart-search)
+" }}}
+
+" w0rp/ale {{{
+" エラー間を移動: Alt+j, Alt+k
+nmap <silent> <A-k> <Plug>(ale_previous_wrap)
+nmap <silent> <A-j> <Plug>(ale_next_wrap)
 " }}}
 " ----------------------------------------------------------------------------------
 
