@@ -6,9 +6,7 @@ zshの設定ファイル群
 ## 内容物
 * _zshrc
 * config/
-
-## configの中身
-* zshの設定ファイル > zshrcを分割しただけ
+    * zshの設定ファイル > zshrcを分割しただけ
 
 ### 分割単位について
 ```
@@ -20,13 +18,12 @@ z: その他の設定
 ```
 
 ## 単体でインストールする場合
-
+以下のコマンドを実行するだけ
 ```
 sh $HOME/dotfiles/00_install/zsh-install.sh
 ```
 
 ## 構造
-
 ```
 zshrc
 ├── ZSHRC.md
