@@ -11,21 +11,23 @@ zshの設定ファイル群
 * zshの設定ファイル > zshrcを分割しただけ
 
 ### 分割単位について
-'''
+```
 a: zshの大規模な機能の有効化
 b: zshの小規模な機能の有効化
 c: zshのプロンプトに関する設定
 d: zshのエイリアスに関する設定
 z: その他の設定
-'''
+```
 
 ## 単体でインストールする場合
-'''
+
+```
 sh $HOME/dotfiles/00_install/zsh-install.sh
-'''
+```
 
 ## 構造
-'''
+
+```
 zshrc
 ├── ZSHRC.md
 ├── _zshrc
@@ -40,4 +42,4 @@ zshrc
     ├── d1_alias.zsh
     ├── d2_global-alias.zsh
     └── z1_etc.zsh
-'''
+```
