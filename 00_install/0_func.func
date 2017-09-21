@@ -1,0 +1,20 @@
+#!/bin/sh
+
+dotfiles=$(cd $(dirname $0) && pwd)
+
+backup.sh() {
+    local backup-dir=${dotfiles}/backup
+
+    target-file-path=$1
+    file-name=$2
+
+    if [! -e ${target-file-path} ]; then
+        exit
+    else
+        if [ ! -d ${backup-dir} ]; then
+            mkdir ${backup-dir}
+        fi
+        cp ${target-file} ${backup-dir}/${file-name}.origin
+        echo "${target-file-path} has been successfully backed up to ${backup-dir}/${file-name}.origin"
+    fi
+}
