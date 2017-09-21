@@ -1,7 +1,10 @@
 # 8ayac's dotfiles
 
-## Install
-It's only execute the following command.
+## Description
+"dotfiles" is a collection of several configuration files.
+
+## Installation
+Just execute the following command.
 ```
 git clone https://github.com/8ayac/dotfiles.git $HOME
 cd $HOME/dotfiles.git
