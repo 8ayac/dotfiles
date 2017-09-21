@@ -6,8 +6,8 @@ vimの設定ファイル群
 ## 内容物
 * _vimrc
 * userautoload/
-    * init > vim本体の設定
-    * plugin-settings > 各プラグインの設定
+    * init/ > vim本体の設定
+    * plugin-settings/ > 各プラグインの設定
 
 ## initの中身
 |ファイル名             |内容                   |
