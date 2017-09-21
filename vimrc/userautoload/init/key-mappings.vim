@@ -58,6 +58,7 @@ vmap gx <Plug>(openbrowser-smart-search)
 " エラー間を移動: ek, ej
 nmap <silent> ek <Plug>(ale_previous_wrap)
 nmap <silent> ej <Plug>(ale_next_wrap)
+nmap <silent> al :ALEToggle<CR>
 " }}}
 " ----------------------------------------------------------------------------------
 
@@ -69,6 +70,9 @@ nmap <silent> ej <Plug>(ale_next_wrap)
 " ----------------------------------------------------------------------------------
 " vを二回で行末まで選択
 vnoremap v $h
+" 行頭、行末へ移動: Shift+H, Shift+L
+nmap <S-H> ^
+nmap <S-L> $
 " ----------------------------------------------------------------------------------
 
 
@@ -124,4 +128,7 @@ call submode#map('bufmove', 'n', '', '>', '<C-w>>')
 call submode#map('bufmove', 'n', '', '<', '<C-w><')
 call submode#map('bufmove', 'n', '', '+', '<C-w>+')
 call submode#map('bufmove', 'n', '', '-', '<C-w>-')
+
+nmap <silent> lo :lopen<CR>
+nmap <silent> lc :lclose<CR>
 " ----------------------------------------------------------------------------------
