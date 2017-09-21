@@ -39,6 +39,7 @@ vimrc
     │   └── plugins.vim
     └── plugin-settings
         ├── NERDtree.vim
+        ├── ale.vim
         ├── neocomplete.vim
         └── vim-easymotion.vim
 ```
