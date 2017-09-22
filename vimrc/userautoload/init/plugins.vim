@@ -34,6 +34,8 @@ NeoBundle 'rakr/vim-one'
 NeoBundle 'hzchirs/vim-material'
 " iceberg
 NeoBundle 'cocopon/iceberg.vim'
+" vim-dracula
+NeoBundle 'crusoexia/vim-dracula'
 " ==================================================================================
 
 
