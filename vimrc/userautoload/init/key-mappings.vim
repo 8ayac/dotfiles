@@ -58,7 +58,7 @@ vmap gx <Plug>(openbrowser-smart-search)
 " エラー間を移動: ek, ej
 nmap <silent> ek <Plug>(ale_previous_wrap)
 nmap <silent> ej <Plug>(ale_next_wrap)
-nmap <silent> al :ALEToggle<CR>
+nmap <silent> st :ALEToggle<CR>
 " }}}
 " ----------------------------------------------------------------------------------
 
