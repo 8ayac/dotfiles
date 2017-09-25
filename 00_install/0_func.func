@@ -14,7 +14,7 @@ backup.sh() {
         if [ ! -d ${backup-dir} ]; then
             mkdir ${backup-dir}
         fi
-        cp ${target-file} ${backup-dir}/${file-name}.origin
+        cp -rf ${target-file} ${backup-dir}/${file-name}.origin
         echo "${target-file-path} has been successfully backed up to ${backup-dir}/${file-name}.origin"
     fi
 }
