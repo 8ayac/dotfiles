@@ -1,0 +1,43 @@
+[global_config]
+  enabled_plugins = CustomCommandsMenu, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  handle_size = 1
+  inactive_color_offset = 0.71
+  title_font = RictyDiminished Nerd Font 12
+  title_transmit_bg_color = "#5c8ff4"
+  title_transmit_fg_color = "#f7f7f7"
+  title_use_system_font = False
+  window_state = maximise
+[keybindings]
+  move_tab_left = <Primary><Shift>Page_Up
+  move_tab_right = <Primary><Shift>Down
+  next_tab = <Alt>n
+  prev_tab = <Alt>p
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = origin1
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#222222"
+    background_darkness = -0.2
+    background_image = None
+    font = RictyDiminished Nerd Font 16
+    foreground_color = "#ececec"
+    palette = "#000000:#cd0000:#00cd00:#cdcd00:#66b4ff:#cd00cd:#00cdcd:#e5e5e5:#4c4c4c:#ff0000:#00ff00:#ffff00:#3da5fc:#ff00ff:#00ffff:#ffffff"
+    scrollback_infinite = True
+    use_system_font = False
+  [[origin1]]
+    background_color = "#222222"
+    background_darkness = 1.0
+    background_image = None
+    font = RictyDiminished Nerd Font 16
+    foreground_color = "#ececec"
+    palette = "#000000:#cd0000:#00cd00:#cdcd00:#66b4ff:#cd00cd:#00cdcd:#e5e5e5:#4c4c4c:#ff0000:#00ff00:#ffff00:#3da5fc:#ff00ff:#00ffff:#ffffff"
+    scrollback_infinite = True
+    use_system_font = False
