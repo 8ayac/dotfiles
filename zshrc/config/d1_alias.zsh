@@ -63,7 +63,7 @@ alias ccb='for c in {000..255}; do echo -n "\e[1m\e[38;5;${c}m $c" ; [ $(($c%16)
 # pwdの出力に色をつける
 alias pwd='echo -e "\e[36;1m${PWD}\e[m"'
 # カレントディレクトリをクリップボードにコピーする
-alias cpwd='echo -e "\e[36;1m${pwd}\e[m"; \pwd | xsel --clipboard --input'
+alias cpwd='echo -e "\e[36;1m${PWD}\e[m"; \pwd | xsel --clipboard --input'
 
 # grepの出力に色をつける
 alias grep='grep --color=auto'
