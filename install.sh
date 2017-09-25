@@ -11,3 +11,6 @@ sh ${installsh_dir}/zsh-syntax-highlighting-install.sh
 
 # vim
 sh ${installsh_dir}/vim-install.sh
+
+# terminator
+sh ${installsh_dir}/terminator-install.sh
