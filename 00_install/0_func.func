@@ -1,6 +1,6 @@
 #!/bin/sh
 
-backup.sh() {
+backup() {
     local OWNDIR=$(cd $(dirname $0) && pwd)
     local backup_dir=${OWNDIR}/backup
 
