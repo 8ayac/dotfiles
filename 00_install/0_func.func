@@ -13,7 +13,7 @@ backup() {
         if [ ! -d ${backup_dir} ]; then
             mkdir ${backup_dir}
         fi
-        cp -rf ${target_file} ${backup_dir}/${file_name}.origin
+        cp -rf ${target_file_path} ${backup_dir}/${file_name}.origin
         echo "${target_file_path} has been successfully backed up to ${backup_dir}/${file_name}.origin"
     fi
 }
