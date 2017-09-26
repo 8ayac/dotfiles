@@ -1,20 +1,19 @@
 #!/bin/sh
 
-dotfiles=$(cd $(dirname $0) && pwd)
-
 backup.sh() {
-    local backup-dir=${dotfiles}/backup
+    local OWNDIR=$(cd $(dirname $0) && pwd)
+    local backup_dir=${OWNDIR}/backup
 
-    target-file-path=$1
-    file-name=$2
+    target_file_path=$1
+    file_name=$2
 
-    if [! -e ${target-file-path} ]; then
+    if [ ! -e ${target_file_path} ]; then
         exit
     else
-        if [ ! -d ${backup-dir} ]; then
-            mkdir ${backup-dir}
+        if [ ! -d ${backup_dir} ]; then
+            mkdir ${backup_dir}
         fi
-        cp -rf ${target-file} ${backup-dir}/${file-name}.origin
-        echo "${target-file-path} has been successfully backed up to ${backup-dir}/${file-name}.origin"
+        cp -rf ${target_file} ${backup_dir}/${file_name}.origin
+        echo "${target_file_path} has been successfully backed up to ${backup_dir}/${file_name}.origin"
     fi
 }
