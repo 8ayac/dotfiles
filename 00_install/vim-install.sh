@@ -5,6 +5,7 @@
 if [ ! -e $HOME/.vimrc ]; then
     sudo apt -y install vim
     sudo apt -y install vim-gnome
+    mkdir $HOME/.vim
 fi
 backup $HOME/.vimrc _vimrc
 ln -sf ${dotfiles}/vimrc/_vimrc $HOME/.vimrc
