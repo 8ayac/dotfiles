@@ -1,7 +1,7 @@
 #!/bin/sh
 
 . $HOME/dotfiles/00_install/0_func.func
-dir=${dofiles}/zsh-syntax-highlighting/highlighters
+dir=${dotfiles}/zsh-syntax-highlighting/highlighters
 
 if [ ! -e $HOME/zsh-syntax-highlighting/ ]; then
 	git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $HOME/zsh-syntax-highlighting
