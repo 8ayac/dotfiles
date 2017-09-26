@@ -11,7 +11,7 @@ backup() {
     file_name=$2
 
     if [ ! -e ${target_file_path} ]; then
-        exit
+        :
     else
         if [ ! -d ${backup_dir} ]; then
             mkdir ${backup_dir}
