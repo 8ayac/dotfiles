@@ -7,7 +7,7 @@
 Just execute the following command.
 ```
 git clone https://github.com/8ayac/dotfiles.git $HOME
-cd $HOME/dotfiles.git
+cd $HOME/dotfiles
 ./install.sh
 ```
 
