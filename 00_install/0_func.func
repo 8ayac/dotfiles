@@ -1,5 +1,8 @@
 #!/bin/sh
 
+dotfiles=$HOME/dotfiles
+installsh_dir=dotfiles/00_install
+
 backup() {
     local OWNDIR=$(cd $(dirname $0) && pwd)
     local backup_dir=${OWNDIR}/backup
