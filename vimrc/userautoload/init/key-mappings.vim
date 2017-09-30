@@ -129,6 +129,6 @@ call submode#map('bufmove', 'n', '', '<', '<C-w><')
 call submode#map('bufmove', 'n', '', '+', '<C-w>+')
 call submode#map('bufmove', 'n', '', '-', '<C-w>-')
 
-nmap <silent> lo :lopen<CR>
-nmap <silent> lc :lclose<CR>
+nmap <silent> tlo :lopen<CR>
+nmap <silent> tlc :lclose<CR>
 " ----------------------------------------------------------------------------------
