@@ -9,7 +9,7 @@
   window_state = maximise
 [keybindings]
   move_tab_left = <Primary><Shift>Page_Up
-  move_tab_right = <Primary><Shift>Down
+  move_tab_right = <Primary><Shift>Page_Down
   next_tab = <Alt>n
   prev_tab = <Alt>p
 [layouts]
