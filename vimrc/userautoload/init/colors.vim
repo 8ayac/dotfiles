@@ -27,6 +27,12 @@ hi Visual  ctermbg=236
 
 " 閉じ括弧の色
 hi MatchParen ctermbg=123
+
+highlight Normal ctermbg=none
+highlight NonText ctermbg=none
+highlight LineNr ctermbg=none
+highlight Folded ctermbg=none
+highlight EndOfBuffer ctermbg=none
 " ----------------------------------------------------------------------------------
 
 
