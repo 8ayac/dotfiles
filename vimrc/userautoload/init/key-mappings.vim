@@ -72,6 +72,14 @@ nmap <silent> st :ALEToggle<CR>
 nmap tts :1,$!expand -4<CR>
 " wtts でタブをスペースに一括で変換したあと保存する
 nmap wtts :1,$!expand -4<CR>:w<CR>
+
+" Space + O で全体置換(プラグインvim-over併用)
+nnoremap <silent> <Space>o :OverCommandLine<CR>%s//g<Left><Left>
+
+" Space + O で選択範囲(プラグインvim-over併用)
+vnoremap <silent> <Space>o :OverCommandLine<CR>s//g<Left><Left>
+
+
 " ----------------------------------------------------------------------------------
 
 
