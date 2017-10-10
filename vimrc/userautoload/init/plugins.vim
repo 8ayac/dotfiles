@@ -110,6 +110,9 @@ NeoBundle 'kana/vim-submode'
 " w0rp/ale
 NeoBundle 'w0rp/ale'
 
+" osyo-manga/vim-over
+NeoBundle 'osyo-manga/vim-over'
+
 " vimrc に記述されたプラグインでインストールされていないものがないかチェックする
 NeoBundleCheck
 call neobundle#end()
