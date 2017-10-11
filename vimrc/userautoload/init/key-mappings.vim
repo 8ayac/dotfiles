@@ -79,7 +79,9 @@ nnoremap <silent> <Space>o :OverCommandLine<CR>%s//g<Left><Left>
 " Space + O で選択範囲(プラグインvim-over併用)
 vnoremap <silent> <Space>o :OverCommandLine<CR>s//g<Left><Left>
 
-
+" Ctrl + k でコメントアウトする
+nmap <C-K> <Plug>(caw:hatpos:toggle)
+vmap <C-K> <Plug>(caw:hatpos:toggle)
 " ----------------------------------------------------------------------------------
 
 
