@@ -113,6 +113,9 @@ NeoBundle 'w0rp/ale'
 " osyo-manga/vim-over
 NeoBundle 'osyo-manga/vim-over'
 
+" tyru/caw.vim
+NeoBundle "tyru/caw.vim"
+
 " vimrc に記述されたプラグインでインストールされていないものがないかチェックする
 NeoBundleCheck
 call neobundle#end()
