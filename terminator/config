@@ -6,7 +6,7 @@
   title_transmit_bg_color = "#5c8ff4"
   title_transmit_fg_color = "#f7f7f7"
   title_use_system_font = False
-  window_state = maximise
+  window_state = fullscreen
 [keybindings]
   move_tab_left = <Primary><Shift>Page_Up
   move_tab_right = <Primary><Shift>Page_Down
@@ -25,8 +25,9 @@
 [profiles]
   [[default]]
     background_color = "#222222"
-    background_darkness = -0.2
+    background_darkness = 0.74
     background_image = None
+    background_type = transparent
     font = RictyDiminished Nerd Font 16
     foreground_color = "#ececec"
     palette = "#000000:#cd0000:#00cd00:#cdcd00:#66b4ff:#cd00cd:#00cdcd:#e5e5e5:#4c4c4c:#ff0000:#00ff00:#ffff00:#3da5fc:#ff00ff:#00ffff:#ffffff"
@@ -34,8 +35,9 @@
     use_system_font = False
   [[origin1]]
     background_color = "#222222"
-    background_darkness = 1.0
+    background_darkness = 0.73
     background_image = None
+    background_type = transparent
     font = RictyDiminished Nerd Font 16
     foreground_color = "#ececec"
     palette = "#000000:#cd0000:#00cd00:#cdcd00:#66b4ff:#cd00cd:#00cdcd:#e5e5e5:#4c4c4c:#ff0000:#00ff00:#ffff00:#3da5fc:#ff00ff:#00ffff:#ffffff"
