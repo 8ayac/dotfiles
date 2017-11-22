@@ -82,6 +82,9 @@ vnoremap <silent> <Space>o :OverCommandLine<CR>s//g<Left><Left>
 " Ctrl + k でコメントアウトする
 nmap <C-K> <Plug>(caw:hatpos:toggle)
 vmap <C-K> <Plug>(caw:hatpos:toggle)
+
+" gggでインデント整形
+nmap ggg :gg=G<CR>
 " ----------------------------------------------------------------------------------
 
 
