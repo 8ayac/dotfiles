@@ -84,7 +84,7 @@ nmap <C-K> <Plug>(caw:hatpos:toggle)
 vmap <C-K> <Plug>(caw:hatpos:toggle)
 
 " gggでインデント整形
-nmap ggg :gg=G<CR>
+nmap ggg gg=G<CR>
 " ----------------------------------------------------------------------------------
 
 
