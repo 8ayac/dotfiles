@@ -25,20 +25,18 @@
 [profiles]
   [[default]]
     background_color = "#222222"
-    background_darkness = 0.74
-    background_image = None
-    background_type = transparent
-    font = RictyDiminished Nerd Font 16
+    background_darkness = 0.86
+    background_image = /home/hyc/Pictures/Wallpapers/IMG_255457.jpg
+    font = RictyDiminished Nerd Font 22
     foreground_color = "#ececec"
     palette = "#000000:#cd0000:#00cd00:#cdcd00:#66b4ff:#cd00cd:#00cdcd:#e5e5e5:#4c4c4c:#ff0000:#00ff00:#ffff00:#3da5fc:#ff00ff:#00ffff:#ffffff"
     scrollback_infinite = True
     use_system_font = False
   [[origin1]]
     background_color = "#222222"
-    background_darkness = 0.73
+    background_darkness = 0.86
     background_image = None
-    background_type = transparent
-    font = RictyDiminished Nerd Font 16
+    font = RictyDiminished Nerd Font 22
     foreground_color = "#ececec"
     palette = "#000000:#cd0000:#00cd00:#cdcd00:#66b4ff:#cd00cd:#00cdcd:#e5e5e5:#4c4c4c:#ff0000:#00ff00:#ffff00:#3da5fc:#ff00ff:#00ffff:#ffffff"
     scrollback_infinite = True
