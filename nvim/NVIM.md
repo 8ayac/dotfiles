@@ -32,9 +32,7 @@ vimrc
 ├── dein
 │   ├── dein_init.vim
 │   ├── dein.toml
-│   ├── lazy.toml
-│   └── repos
-│       └── github.com
+│   └─── lazy.toml
 └── init
     ├── autocmd.vim
     ├── basic.vim
