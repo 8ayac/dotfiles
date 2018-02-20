@@ -13,6 +13,9 @@ if [ ! -e $HOME/.config/nvim ]; then
 fi
 
 if [ ! -e $HOME/.cache/dein ]; then
+    if !(type "curl" > /dev/null 2>&1); then
+        sudo apt -y install curl
+    fi
     curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
     sh ./installer.sh ~/.cache/dein/
 fi
