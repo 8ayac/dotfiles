@@ -1,7 +1,7 @@
 # nvim(Neovim)
 
 ## 概要
-Neovimの設定ファイル群(VIM version: 0.2.3)
+Neovimの設定ファイル群
 
 ## 内容物
 * init.vim
