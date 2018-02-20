@@ -26,7 +26,7 @@ sh $HOME/dotfiles/00_install/neovim-install.sh
 ## plugin-settings
 各プラグインの設定
 ```
-vimrc
+nvim
 ├── NVIMRC.md
 ├── init.vim
 ├── dein
