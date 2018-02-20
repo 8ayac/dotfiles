@@ -1,0 +1,53 @@
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+# colorscheme
+# ==========================================================
+[[plugins]]
+repo = 'freeo/vim-kalisi'
+
+[[plugins]]
+repo = 'cocopon/iceberg.vim'
+
+[[plugins]]
+repo = 'rakr/vim-one'
+# ==========================================================
+
+
+
+# extension
+# ==========================================================
+[[plugins]]
+repo = 'Shougo/vinarise.vim'
+
+[[plugins]]
+repo = 'Shougo/vimproc'
+
+[[plugins]]
+repo = 'vim-scripts/sudo.vim'
+
+[[plugins]]
+repo    = 'vim-airline/vim-airline'
+depends = ['vim-airline-themes']
+
+[[plugins]]
+repo = 'vim-airline/vim-airline-themes'
+
+[[plugins]]
+repo = 'Lokaltog/vim-easymotion'
+
+[[plugins]]
+repo = 'cohama/lexima.vim'
+
+[[plugins]]
+repo = 'tyru/open-browser.vim'
+
+[[plugins]]
+repo = 'tyru/caw.vim'
+
+[[plugins]]
+repo = 'kana/vim-submode'
+
+[[plugins]]
+repo = 'osyo-manga/vim-over'
+# ==========================================================
