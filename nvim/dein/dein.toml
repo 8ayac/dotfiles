@@ -50,4 +50,7 @@ repo = 'kana/vim-submode'
 
 [[plugins]]
 repo = 'osyo-manga/vim-over'
+
+[[plugins]]
+repo = 'honza/dockerfile.vim'
 # ==========================================================
