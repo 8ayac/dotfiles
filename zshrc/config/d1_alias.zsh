@@ -25,6 +25,9 @@ alias mkdir='mkdir -p'
 # history
 alias h='history'
 
+# vim -> nvim
+alias vim='nvim'
+
 # exit
 alias e='exit'
 # -------------------------------------------------
