@@ -7,9 +7,9 @@
 set termguicolors
 syntax on
 " カラースキーマ
-colorscheme kalisi
+colorscheme one
 set background=dark
-let g:airline_theme='kalisi'
+let g:airline_theme='one'
 
 " 背景色をターミナルと同じ色にする
 " autocmd ColorScheme * hi Normal ctermbg=none
