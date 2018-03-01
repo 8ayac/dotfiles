@@ -74,7 +74,7 @@ set laststatus=2
 " コマンドラインの補完
 set wildmode=list:longest
 " 不可視文字を可視化
-set list listchars=tab:»-
+set list listchars=tab:»-,trail:-
 " ----------------------------------------------------------------------------------
 
 
