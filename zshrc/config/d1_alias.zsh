@@ -28,6 +28,9 @@ alias h='history'
 # vim -> nvim
 alias vim='nvim'
 
+# tmux
+alias tx='tmux'
+
 # exit
 alias e='exit'
 # -------------------------------------------------
