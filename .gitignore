@@ -1,1 +1,3 @@
 nvim/dein/repos/
+00_install/installer.sh
+zshrc/config/z2_addbyme.zsh
