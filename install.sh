@@ -14,3 +14,6 @@ sh ${installsh_dir}/vim-install.sh
 
 # neovim
 sh ${installsh_dir}/neovim-install.sh
+
+# tmux
+sh ${installsh_dir}/tmux-install.sh
