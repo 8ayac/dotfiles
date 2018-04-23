@@ -8,14 +8,14 @@ fi
 
 if !(type "spark" > /dev/null 2>&1); then
     curl -O https://raw.githubusercontent.com/holman/spark/master/spark
-    mv spark /usr/local/bin
-    chmod u+x /usr/local/bin/spark
+    sudo -E mv spark /usr/local/bin
+    sudo -E chmod u+x /usr/local/bin/spark
 fi
 
 if !(type "battery" > /dev/null 2>&1); then
     curl -O https://raw.githubusercontent.com/goles/battery/master/battery
-    mv battery /usr/local/bin
-    chmod u+x /usr/local/bin/battery
+    sudo -E mv battery /usr/local/bin
+    sudo -E chmod u+x /usr/local/bin/battery
 fi
 
 if [ ! -e $HOME/.tmux ]; then
