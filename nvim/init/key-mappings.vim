@@ -8,6 +8,10 @@ inoremap <C-j> <esc>
 nmap <C-j><C-j> :nohlsearch<CR><Esc>
 " vimrc関連を編集したい時
 nmap evp :NERDTree<CR> :OpenBookmark vimrc<CR>
+" カラースキム: 明→暗
+nmap btd :set background=dark<CR>
+" カラースキム: 暗→明
+nmap dtb :set background=<CR>
 " tagsジャンプの時に複数あるときは一覧表示
 nmap <C-]> g<C-]>
 
