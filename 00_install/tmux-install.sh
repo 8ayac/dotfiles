@@ -1,0 +1,28 @@
+#!/bin/sh
+
+. $HOME/dotfiles/00_install/0_func.func
+
+if !(type "tmux" > /dev/null 2>&1); then
+    sudo apt install tmux -y
+fi
+
+if !(type "spark" > /dev/null 2>&1); then
+    curl -O https://raw.githubusercontent.com/holman/spark/master/spark
+    mv spark /usr/local/bin
+    chmod u+x /usr/local/bin/spark
+fi
+
+if !(type "battery" > /dev/null 2>&1); then
+    curl -O https://raw.githubusercontent.com/goles/battery/master/battery
+    mv battery /usr/local/bin
+    chmod u+x /usr/local/bin/battery
+fi
+
+if [ ! -e $HOME/.tmux ]; then
+    mkdir -p $HOME/.tmux/plugins/tpm/
+    git clone https://github.com/tmux-plugins/tpm $HOME/.tmux/plugins/tpm
+    git clone https://github.com/tmux-plugins/tmux-cpu $HOME/.tmux/plugins/tmux-cpu
+fi
+
+backup $HOME/.tmux.conf _tmux.conf
+ln -sf ${dotfiles}/tmux/_tmux.conf $HOME/.tmux.conf
