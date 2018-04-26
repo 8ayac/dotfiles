@@ -3,7 +3,11 @@
 . $HOME/dotfiles/00_install/0_func.func
 
 if !(type "tmux" > /dev/null 2>&1); then
-    sudo apt install tmux -y
+    sudo -E apt install libevent-dev ncurses-dev automake autoconf pkg-config
+    git clone https://github.com/tmux/tmux.git
+    cd tmux
+    sudo -E autogen.sh
+    sudo -E ./configure && sudo -E make
 fi
 
 if !(type "spark" > /dev/null 2>&1); then
