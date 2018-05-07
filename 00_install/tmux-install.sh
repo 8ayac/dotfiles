@@ -3,7 +3,7 @@
 . $HOME/dotfiles/00_install/0_func.func
 
 if !(type "tmux" > /dev/null 2>&1); then
-    sudo -E apt install libevent-dev ncurses-dev automake autoconf pkg-config
+    sudo -E apt install libevent-dev libncurses-dev automake autoconf pkg-config
     git clone https://github.com/tmux/tmux.git $HOME/tmux
     cd $HOME/tmux
     sudo -E autogen.sh
