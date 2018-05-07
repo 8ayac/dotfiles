@@ -6,7 +6,7 @@ if !(type "tmux" > /dev/null 2>&1); then
     sudo -E apt install libevent-dev libncurses-dev automake autoconf pkg-config
     git clone https://github.com/tmux/tmux.git $HOME/tmux
     cd $HOME/tmux
-    sudo -E autogen.sh
+    sudo -E ./autogen.sh
     sudo -E ./configure && sudo -E make
     sudo -E mv tmux /usr/local/bin
 fi
