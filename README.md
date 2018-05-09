@@ -24,4 +24,3 @@ cd $HOME/dotfiles
 
 * zsh-syntax-highlighting > The configuration files for [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) that provide highlighting of commands in zsh.
 
-* terminator > The configuration files for terminator [terminator](https://launchpad.net/terminator) which is the extension software of Terminal.
